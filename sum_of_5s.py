@@ -7,7 +7,7 @@ class Buffer:
         self.sequence.extend(a)
         while len(self.sequence) >= 5:
             print(sum(self.sequence[0:5]))
-            self.sequence = self.sequence[5:]
+            del (self.sequence[:5])
 
     def get_current_part(self):
         return self.sequence
