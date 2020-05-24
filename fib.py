@@ -1,5 +1,3 @@
-
-
 def fib(k):
     if k == 0 or k == 1:
         return 1
